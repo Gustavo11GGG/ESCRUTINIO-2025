@@ -42,7 +42,7 @@
   <!-- 🟣 NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #6610f2, #6f42c1);">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold text-white" href="index.html">🗳️ Escrutinio Catamarca</a>
+      <a class="navbar-brand fw-bold text-white" href="index.html">🗳 Escrutinio Catamarca</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link text-white" href="buscar_certificado.html">🔍 Buscar Certificado</a></li>
-          <li class="nav-item"> <a class="nav-link text-white" href="index.html">📋 Volver a cargar mesas </a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">📋 Volver a cargar mesas</a></li>
           <li class="nav-item"><a class="nav-link active text-white fw-semibold" href="consultar_resultados.html">📊 Consultar Resultados</a></li>
         </ul>
         <div class="d-flex align-items-center">
@@ -64,7 +64,6 @@
   <!-- 📊 CONCEJALES -->
   <main id="bloqueConcejales" class="zona-mesas text-center pt-5 visible">
     <h2 class="text-white fw-bold mt-5 mb-4">📊 CONSULTAR RESULTADOS DE CONCEJALES</h2>
-
     <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
       <select id="selectMunicipio_concejales" class="form-select w-auto fs-5 p-2 shadow-sm">
         <option value="" selected disabled>Selecciona un municipio</option>
@@ -95,18 +94,15 @@
         <option>SAN_JOSE</option>
         <option>SANTA_MARIA</option>
       </select>
-
       <button id="btnConsultar_concejales" class="btn btn-light fw-bold fs-5 px-4 py-2">Consultar</button>
     </div>
-
     <div id="graficoConcejales" class="mt-4 mx-auto" style="width: 750px; height: 600px;"></div>
     <div id="leyendaConcejales" class="mt-3 text-center text-white fw-semibold"></div>
   </main>
 
-  <!-- 📊 DIPUTADOS -->
+  <!-- 📊 DIPUTADOS PROVINCIALES -->
   <section id="bloqueDiputados" class="zona-mesas text-center pb-5 visible">
     <h2 class="text-white fw-bold mb-4 mt-5">📊 CONSULTAR RESULTADOS DE DIPUTADOS PROVINCIALES</h2>
-
     <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
       <select id="selectDepartamento_diputados" class="form-select w-auto fs-5 p-2 shadow-sm">
         <option value="" selected disabled>Selecciona un departamento</option>
@@ -128,25 +124,19 @@
         <option>TINOGASTA</option>
         <option>SANTA_MARIA</option>
       </select>
-
       <button id="btnConsultar_diputados" class="btn btn-light fw-bold fs-5 px-4 py-2">Consultar</button>
     </div>
-
     <div id="graficoDiputados" class="mt-4 mx-auto" style="width: 750px; height: 600px;"></div>
     <div id="leyendaDiputados" class="mt-3 text-center text-white fw-semibold"></div>
   </section>
 
-  <!-- 🔹 Separador -->
-<div style="height: 40px; border-bottom: 1px solid rgba(255,255,255,0.2); margin: 40px auto; width: 80%;"></div>
-
-<!-- 📊 SENADORES PROVINCIALES -->
-<section class="zona-mesas text-center pb-5">
-  <h2 class="text-white fw-bold mb-4">📊 CONSULTAR RESULTADOS DE SENADORES PROVINCIALES</h2>
-
-  <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
-    <select id="selectDepartamento_senadores" class="form-select w-auto fs-5 p-2 shadow-sm">
-      <option value="" selected disabled>Selecciona un departamento</option>
-     <option>CAPAYAN</option>
+  <!-- 📊 SENADORES PROVINCIALES -->
+  <section class="zona-mesas text-center pb-5">
+    <h2 class="text-white fw-bold mb-4">📊 CONSULTAR RESULTADOS DE SENADORES PROVINCIALES</h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
+      <select id="selectDepartamento_senadores" class="form-select w-auto fs-5 p-2 shadow-sm">
+        <option value="" selected disabled>Selecciona un departamento</option>
+        <option>CAPAYAN</option>
         <option>LA_PAZ</option>
         <option>ANCASTI</option>
         <option>EL_ALTO</option>
@@ -154,43 +144,34 @@
         <option>ANTOFAGASTA_DE_LA_SIERRA</option>
         <option>TINOGASTA</option>
         <option>SANTA_MARIA</option>
-    </select>
+      </select>
+      <button id="btnConsultar_senadores" class="btn btn-light fw-bold fs-5 px-4 py-2">Consultar</button>
+    </div>
+    <div id="graficoSenadores" class="mt-4 mx-auto" style="width: 750px; height: 600px;"></div>
+    <div id="leyendaSenadores" class="mt-3 text-center text-white fw-semibold"></div>
+  </section>
 
-    <button id="btnConsultar_senadores" class="btn btn-light fw-bold fs-5 px-4 py-2">Consultar</button>
-  </div>
+  <!-- 📊 INTENDENTES -->
+  <section class="zona-mesas text-center pb-5">
+    <h2 class="text-white fw-bold mb-4">📊 CONSULTAR RESULTADOS DE INTENDENTES</h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
+      <select id="selectMunicipio_intendentes" class="form-select w-auto fs-5 p-2 shadow-sm">
+        <option value="" selected disabled>Selecciona un municipio</option>
+        <option>LOS_ALTOS</option>
+        <option>MUTQUIN</option>
+      </select>
+      <button id="btnConsultar_intendentes" class="btn btn-light fw-bold fs-5 px-4 py-2">Consultar</button>
+    </div>
+    <div id="graficoIntendentes" class="mt-4 mx-auto" style="width: 750px; height: 600px;"></div>
+    <div id="leyendaIntendentes" class="mt-3 text-center text-white fw-semibold"></div>
+  </section>
 
-  <div id="graficoSenadores" class="mt-4 mx-auto" style="width: 750px; height: 600px;"></div>
-  <div id="leyendaSenadores" class="mt-3 text-center text-white fw-semibold"></div>
-</section>
-
-<!-- 🔹 Separador -->
-<div style="height: 40px; border-bottom: 1px solid rgba(255,255,255,0.2); margin: 40px auto; width: 80%;"></div>
-
-<!-- 📊 INTENDENTES -->
-<section class="zona-mesas text-center pb-5">
-  <h2 class="text-white fw-bold mb-4">📊 CONSULTAR RESULTADOS DE INTENDENTES</h2>
-
-  <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
-    <select id="selectMunicipio_intendentes" class="form-select w-auto fs-5 p-2 shadow-sm">
-      <option value="" selected disabled>Selecciona un municipio</option>
-      <option>LOS_ALTOS</option>
-       <option>MUTQUIN</option>
-    </select>
-
-    <button id="btnConsultar_intendentes" class="btn btn-light fw-bold fs-5 px-4 py-2">Consultar</button>
-  </div>
-
-  <div id="graficoIntendentes" class="mt-4 mx-auto" style="width: 750px; height: 600px;"></div>
-  <div id="leyendaIntendentes" class="mt-3 text-center text-white fw-semibold"></div>
-</section>
-
-<!-- 📊 DIPUTADOS NACIONALES -->
-<section class="zona-mesas text-center pb-5" id="seccionDiputadosNacionales">
-  <h2 class="text-white fw-bold mb-4">📊 CONSULTAR RESULTADOS DE DIPUTADOS NACIONALES</h2>
-
-  <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
-    <select id="selectDepartamento_diputados_nac" class="form-select w-auto fs-5 p-2 shadow-sm">
-      <option value="" selected disabled>Selecciona un departamento</option>
+  <!-- 📊 DIPUTADOS NACIONALES -->
+  <section class="zona-mesas text-center pb-5" id="seccionDiputadosNacionales">
+    <h2 class="text-white fw-bold mb-4">📊 CONSULTAR RESULTADOS DE DIPUTADOS NACIONALES</h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
+      <select id="selectDepartamento_diputados_nac" class="form-select w-auto fs-5 p-2 shadow-sm">
+        <option value="" selected disabled>Selecciona un departamento</option>
         <option>A NIVEL PROVINCIAL</option>
         <option>CAPITAL</option>
         <option>CAPAYAN</option>
@@ -208,27 +189,22 @@
         <option>ANTOFAGASTA_DE_LA_SIERRA</option>
         <option>TINOGASTA</option>
         <option>SANTA_MARIA</option>
-    </select>
+      </select>
+      <button id="btnConsultar_diputados_nac" class="btn btn-light fw-bold fs-5 px-4 py-2">Consultar</button>
+    </div>
+    <div id="graficoDiputadosNacionales" class="mt-4 mx-auto" style="width: 750px; height: 600px;"></div>
+    <div id="leyendaDiputadosNacionales" class="mt-3 text-center text-white fw-semibold"></div>
+  </section>
 
-    <button id="btnConsultar_diputados_nac" class="btn btn-light fw-bold fs-5 px-4 py-2">Consultar</button>
-  </div>
-
-  <div id="graficoDiputadosNacionales" class="mt-4 mx-auto" style="width: 750px; height: 600px;"></div>
-  <div id="leyendaDiputadosNacionales" class="mt-3 text-center text-white fw-semibold"></div>
-</section>
-
-
-
-
-  <!-- ✅ JS -->
-  <script src="assets/js/almacenamiento.js"></script>
+  <!-- ✅ SCRIPTS -->
+  <script src="assets/js/almacenamiento.js?v=3"></script>
+  <script src="assets/js/consultar_diputados_nacionales.js?v=3"></script>
+  <!-- Los demás scripts se pueden volver a activar una vez probado -->
+  <!--
   <script src="assets/js/consultar_concejales.js"></script>
   <script src="assets/js/consultar_diputados.js"></script>
   <script src="assets/js/consultar_senadores.js"></script>
   <script src="assets/js/consultar_intendentes.js"></script>
-  <script src="assets/js/consultar_diputados_nacionales.js"></script>
-
-
-
+  -->
 </body>
 </html>
