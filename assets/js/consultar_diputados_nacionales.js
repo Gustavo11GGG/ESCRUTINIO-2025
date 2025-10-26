@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!resp.ok) throw new Error(`Error al acceder al bin (${resp.status})`);
       const data = await resp.json();
 
-      const resultados = data.record.resultados || [];
+      const resultados = data.record?.resultados || data.resultados || [];
 
       // 🔍 Filtrar mesas por departamento
       const mesasDepto = resultados.filter(r => 
