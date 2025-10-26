@@ -2,8 +2,8 @@
 
 // 🔑 API Key (X-MASTER-KEY) y URLs de los nuevos bins
 const API_KEY = "$2a$10$wTPVX8Drzqq6./FQLpRXrennzxxdycT./vqdfiXwGdVILuRAV6cju"; // Master Key
-const BIN_PROVINCIALES = "https://api.jsonbin.io/v3/b/68fea1d043b1c97be9831773";
-const BIN_NACIONALES = "https://api.jsonbin.io/v3/b/68fea1afd0ea881f40be116d";
+const BIN_PROVINCIALES = "https://api.jsonbin.io/v3/b/68fea1afd0ea881f40be116d";
+const BIN_NACIONALES = "https://api.jsonbin.io/v3/b/68fea1d043b1c97be9831773";
 
 /**
  * 💾 Guarda o actualiza un certificado (provincial o nacional)
