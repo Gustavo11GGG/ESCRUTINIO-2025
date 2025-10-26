@@ -1,4 +1,5 @@
 // 📊 Consulta de resultados de Diputados Nacionales desde JSONBin.io
+// Usa las constantes API_KEY y BIN_NACIONALES ya declaradas en almacenamiento.js
 
 document.addEventListener("DOMContentLoaded", () => {
   const btnConsultar = document.querySelector("button");
@@ -12,14 +13,18 @@ document.addEventListener("DOMContentLoaded", () => {
     resultadosDiv.innerHTML = `<p>⏳ Consultando resultados para ${depto}...</p>`;
 
     try {
-      const resp = await fetch(BIN_NACIONALES, { headers: { "X-Master-Key": API_KEY } });
+      // ✅ Llamada directa a JSONBin (sin backend local)
+      const resp = await fetch(BIN_NACIONALES, { 
+        headers: { "X-Master-Key": API_KEY }
+      });
+
       if (!resp.ok) throw new Error(`Error al acceder al bin (${resp.status})`);
       const data = await resp.json();
 
       const resultados = data.record.resultados || [];
 
-      // Filtrar mesas del departamento seleccionado
-      const mesasDepto = resultados.filter(r =>
+      // 🔍 Filtrar mesas por departamento
+      const mesasDepto = resultados.filter(r => 
         r.departamento && r.departamento.toUpperCase() === depto
       );
 
@@ -28,9 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      // Agrupar totales por fuerza política
+      // 📈 Sumar votos por fuerza política
       const totales = {};
-
       mesasDepto.forEach(mesa => {
         mesa.fuerzas.forEach(f => {
           if (!totales[f.fuerza_politica]) totales[f.fuerza_politica] = 0;
@@ -38,11 +42,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       });
 
-      // Ordenar de mayor a menor
+      // 🔽 Ordenar por cantidad de votos (de mayor a menor)
       const fuerzasOrdenadas = Object.entries(totales)
         .sort((a, b) => b[1] - a[1]);
 
-      // Renderizar tabla
+      // 🧾 Renderizar tabla de resultados
       let html = `
         <h3>📊 Resultados de Diputados Nacionales - ${depto}</h3>
         <table class="tabla-resultados">
@@ -73,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     } catch (err) {
       resultadosDiv.innerHTML = `<p class="error">❌ Error: ${err.message}</p>`;
-      console.error("Error al consultar resultados:", err);
+      console.error("❌ Error al consultar resultados:", err);
     }
   });
 });
