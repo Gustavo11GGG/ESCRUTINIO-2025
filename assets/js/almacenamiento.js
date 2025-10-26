@@ -42,7 +42,6 @@ async function guardarResultado(resultadoMesa, tipo) {
     console.log(`✅ Certificado ${tipo} guardado online (Mesa ${resultadoMesa.mesa})`);
     console.log("📦 Respuesta JSONBin:", jsonResp);
 
-    // ✅ Alerta visual en pantalla
     mostrarAviso(`✅ Certificado ${tipo} guardado correctamente`, "#28a745");
   } catch (error) {
     console.error(`❌ Error al guardar resultado ${tipo}: ${error.message}`);
