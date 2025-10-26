@@ -1,0 +1,75 @@
+{
+  "departamento": "POMAN",
+  "municipios": [
+    {
+      "nombre": "POMAN",
+      "localidades": [
+        {
+          "nombre": "COLANA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 393", "mesa_desde": 1055, "mesa_hasta": 1056 }
+          ]
+        },
+        {
+          "nombre": "EL PAJONAL",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 394", "mesa_desde": 1060, "mesa_hasta": 1062 }
+          ]
+        },
+        {
+          "nombre": "VILLA DE POMAN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 294", "mesa_desde": 1087, "mesa_hasta": 1094 },
+            { "nombre": "ESC. PROV. N° 20", "mesa_desde": 1095, "mesa_hasta": 1098 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "SAUJIL",
+      "localidades": [
+        {
+          "nombre": "COLPES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 334", "mesa_desde": 1057, "mesa_hasta": 1059 }
+          ]
+        },
+        {
+          "nombre": "RINCON",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 295", "mesa_desde": 1068, "mesa_hasta": 1069 }
+          ]
+        },
+        {
+          "nombre": "SAN MIGUEL",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 391", "mesa_desde": 1070, "mesa_hasta": 1071 }
+          ]
+        },
+        {
+          "nombre": "SAUJIL",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 227", "mesa_desde": 1072, "mesa_hasta": 1082 }
+          ]
+        },
+        {
+          "nombre": "SIJAN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 392", "mesa_desde": 1083, "mesa_hasta": 1086 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "MUTQUIN",
+      "localidades": [
+        {
+          "nombre": "MUTQUIN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 228", "mesa_desde": 1063, "mesa_hasta": 1067 }
+          ]
+        }
+      ]
+    }
+  ]
+}

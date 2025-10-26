@@ -1,0 +1,74 @@
+{
+  "departamento": "AMBATO",
+  "municipios": [
+    {
+      "nombre": "LA PUERTA",
+      "localidades": [
+        {
+          "nombre": "COLPES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 486", "mesa_desde": 1029, "mesa_hasta": 1029 }
+          ]
+        },
+        {
+          "nombre": "LA PUERTA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 210", "mesa_desde": 1037, "mesa_hasta": 1040 },
+            { "nombre": "ESC. PROV. N° 373", "mesa_desde": 1041, "mesa_hasta": 1042 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "EL RODEO",
+      "localidades": [
+        {
+          "nombre": "EL RODEO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 247", "mesa_desde": 1030, "mesa_hasta": 1036 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "LOS VARELAS",
+      "localidades": [
+        {
+          "nombre": "LAS CHACRITAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 422", "mesa_desde": 1043, "mesa_hasta": 1043 }
+          ]
+        },
+        {
+          "nombre": "LOS CASTILLOS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 370", "mesa_desde": 1047, "mesa_hasta": 1048 }
+          ]
+        },
+        {
+          "nombre": "LOS VARELAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 209", "mesa_desde": 1049, "mesa_hasta": 1052 }
+          ]
+        },
+        {
+          "nombre": "SINGUIL",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 273", "mesa_desde": 1053, "mesa_hasta": 1054 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "LAS JUNTAS",
+      "localidades": [
+        {
+          "nombre": "LAS JUNTAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 103", "mesa_desde": 1044, "mesa_hasta": 1046 }
+          ]
+        }
+      ]
+    }
+  ]
+}

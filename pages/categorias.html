@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleccionar Categoría - Escrutinio Electoral</title>
+  <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1>🗳️ Cargar Certificado</h1>
+    <h2 id="infoMesa"></h2>
+
+    <div class="botones">
+      <button id="btnProvincial">Categoría Provincial</button>
+      <button id="btnNacional">Categoría Nacional</button>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Recuperar datos de la mesa desde localStorage
+      const mesaActual = JSON.parse(localStorage.getItem("mesaActual"));
+      const infoMesa = document.getElementById("infoMesa");
+
+      if (mesaActual) {
+        infoMesa.innerHTML = `
+          <p><strong>Departamento:</strong> ${mesaActual.departamento}</p>
+          <p><strong>Localidad:</strong> ${mesaActual.localidad}</p>
+          <p><strong>Municipio:</strong> ${mesaActual.municipio}</p>
+          <p><strong>Escuela:</strong> ${mesaActual.escuela}</p>
+        `;
+      } else {
+        infoMesa.textContent = "No se encontró información de la mesa.";
+      }
+
+      // Eventos de los botones
+      document.getElementById("btnProvincial").addEventListener("click", () => {
+        localStorage.setItem("categoriaSeleccionada", "provincial");
+        window.location.href = "./certificado_provincial.html";
+      });
+
+      document.getElementById("btnNacional").addEventListener("click", () => {
+        localStorage.setItem("categoriaSeleccionada", "nacional");
+        window.location.href = "./certificado_nacional.html";
+      });
+    });
+  </script>
+
+</body>
+</html>

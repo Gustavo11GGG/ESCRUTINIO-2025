@@ -1,0 +1,65 @@
+{
+  "departamento": "VALLE VIEJO",
+  "municipios": [
+    {
+      "nombre": "VALLE VIEJO",
+      "localidades": [
+        {
+          "nombre": "HUAYCAMA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 246", "mesa_desde": 860, "mesa_hasta": 860 }
+          ]
+        },
+        {
+          "nombre": "LAS TEJAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 312", "mesa_desde": 861, "mesa_hasta": 863 }
+          ]
+        },
+        {
+          "nombre": "EL PORTEZUELO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 245", "mesa_desde": 864, "mesa_hasta": 865 }
+          ]
+        },
+        {
+          "nombre": "SAN ISIDRO",
+          "escuelas": [
+            { "nombre": "ESC. MUNICIPAL. N°1", "mesa_desde": 866, "mesa_hasta": 886 },
+            { "nombre": "ESC. PROV. N° 366", "mesa_desde": 887, "mesa_hasta": 895 },
+            { "nombre": "ESC. N° 70 SAN ISIDRO L.", "mesa_desde": 896, "mesa_hasta": 903 },
+            { "nombre": "ESC. SEC. N° 8 GOB. J.CUBAS", "mesa_desde": 904, "mesa_hasta": 908 }
+          ]
+        },
+        {
+          "nombre": "SANTA CRUZ",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 367", "mesa_desde": 909, "mesa_hasta": 909 }
+          ]
+        },
+        {
+          "nombre": "SANTA ROSA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 202", "mesa_desde": 910, "mesa_hasta": 922 },
+            { "nombre": "ESC. SEC. MUN. N° 2 ROMIS RAIDEN", "mesa_desde": 923, "mesa_hasta": 933 },
+            { "nombre": "ESC. 229", "mesa_desde": 934, "mesa_hasta": 944 }
+          ]
+        },
+        {
+          "nombre": "SUMALAO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 201", "mesa_desde": 945, "mesa_hasta": 953 },
+            { "nombre": "ESC. PROV. N° 31 BART. MITRE", "mesa_desde": 954, "mesa_hasta": 961 }
+          ]
+        },
+        {
+          "nombre": "VILLA DOLORES",
+          "escuelas": [
+            { "nombre": "ESC. N° 272", "mesa_desde": 962, "mesa_hasta": 973 },
+            { "nombre": "ESC. 302", "mesa_desde": 974, "mesa_hasta": 977 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificado de Escrutinio Electoral</title>
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <script>
+  // Bloqueo de acceso directo sin login
+  const usuarioActivo = localStorage.getItem("usuarioActivo");
+  if (!usuarioActivo) {
+    window.location.href = "login.html";
+  }
+</script>
+</head>
+<body>
+  <div class="contenedor">
+    <h2>📄 Certificado de Escrutinio Electoral</h2>
+
+    <!-- 🔹 Selector de tipo de certificado -->
+    <div style="margin-bottom: 15px;">
+      <label for="tipoCertificado"><strong>Seleccione tipo de certificado:</strong></label><br>
+      <select id="tipoCertificado" style="margin-top: 8px; padding: 6px; font-size: 15px; border-radius: 6px;">
+        <option value="provincial">🟣 Certificado Provincial</option>
+        <option value="nacional">🔵 Certificado Nacional</option>
+      </select>
+    </div>
+
+    <!-- 🔹 Campo para buscar mesa -->
+    <p><strong>INGRESE EL N° DE MESA</strong></p>
+    <input 
+      type="number" 
+      id="numeroMesa" 
+      placeholder="Ej: 45"
+      style="padding: 8px; font-size: 15px; border-radius: 6px; width: 160px;">
+
+    <button 
+      id="btnBuscar"
+      style="padding: 8px 14px; font-size: 15px; border-radius: 6px; background-color: #6c3db8; color: white; border: none; cursor: pointer;">
+      🔍 Buscar Mesa
+    </button>
+
+    <div id="mensaje" style="margin-top: 15px;"></div>
+  </div>
+
+  <!-- ✅ Cargamos los scripts -->
+  <script src="assets/js/buscadorMesas.js?v=3" defer></script>
+  <script src="assets/js/index.js?v=3" defer></script>
+  <script src="assets/js/navbar.js" defer></script>
+
+</body>
+</html>

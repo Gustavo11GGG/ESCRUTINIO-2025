@@ -1,0 +1,83 @@
+{
+  "departamento": "SANTA ROSA",
+  "municipios": [
+    {
+      "nombre": "LOS ALTOS",
+      "localidades": [
+        {
+          "nombre": "ALIJILAN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 274", "mesa_desde": 788, "mesa_hasta": 793 }
+          ]
+        },
+        {
+          "nombre": "LA BAJADA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 134", "mesa_desde": 804, "mesa_hasta": 804 }
+          ]
+        },
+        {
+          "nombre": "LOS ALTOS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 24", "mesa_desde": 811, "mesa_hasta": 816 },
+            { "nombre": "ESC. PRIM. N° 171", "mesa_desde": 817, "mesa_hasta": 824 },
+            { "nombre": "ESC. PRIM. N° 378", "mesa_desde": 825, "mesa_hasta": 830 }
+          ]
+        },
+        {
+          "nombre": "MANANTIALES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 234", "mesa_desde": 831, "mesa_hasta": 833 }
+          ]
+        },
+        {
+          "nombre": "PTA. GRANDE",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 328", "mesa_desde": 834, "mesa_hasta": 835 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "SANTA ROSA",
+      "localidades": [
+        {
+          "nombre": "AMPOLLA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 207", "mesa_desde": 794, "mesa_hasta": 794 }
+          ]
+        },
+        {
+          "nombre": "BDO. DE OVANTA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 8", "mesa_desde": 795, "mesa_hasta": 802 }
+          ]
+        },
+        {
+          "nombre": "CORTADERAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 208", "mesa_desde": 803, "mesa_hasta": 803 }
+          ]
+        },
+        {
+          "nombre": "LAS CAÑAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 275", "mesa_desde": 805, "mesa_hasta": 805 }
+          ]
+        },
+        {
+          "nombre": "LAVALLE",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 297", "mesa_desde": 806, "mesa_hasta": 810 }
+          ]
+        },
+        {
+          "nombre": "SAN PEDRO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 213", "mesa_desde": 836, "mesa_hasta": 838 }
+          ]
+        }
+      ]
+    }
+  ]
+}

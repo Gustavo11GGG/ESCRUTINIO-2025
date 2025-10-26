@@ -1,0 +1,126 @@
+{
+  "departamento": "TINOGASTA",
+  "municipios": [
+    {
+      "nombre": "TINOGASTA SUR",
+      "localidades": [
+        {
+          "nombre": "BANDA DE LUCERO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 258", "mesa_desde": 1289, "mesa_hasta": 1289 }
+          ]
+        },
+        {
+          "nombre": "CERRO NEGRO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 349", "mesa_desde": 1290, "mesa_hasta": 1290 }
+          ]
+        },
+        {
+          "nombre": "COPACABANA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 10", "mesa_desde": 1291, "mesa_hasta": 1292 }
+          ]
+        },
+        {
+          "nombre": "LA PUNTILLA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 309", "mesa_desde": 1316, "mesa_hasta": 1316 }
+          ]
+        },
+        {
+          "nombre": "SALADO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 233", "mesa_desde": 1326, "mesa_hasta": 1328 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "TINOGASTA NORTE",
+      "localidades": [
+        {
+          "nombre": "EL PUESTO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 9", "mesa_desde": 1293, "mesa_hasta": 1295 }
+          ]
+        },
+        {
+          "nombre": "SAN JOSE",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 12", "mesa_desde": 1329, "mesa_hasta": 1329 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "TINOGASTA CENTRO",
+      "localidades": [
+        {
+          "nombre": "SANTA ROSA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 223", "mesa_desde": 1330, "mesa_hasta": 1332 }
+          ]
+        },
+        {
+          "nombre": "TINOGASTA CIUDAD",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 704", "mesa_desde": 1337, "mesa_hasta": 1350 },
+            { "nombre": "ESC. PROV. N° 5", "mesa_desde": 1351, "mesa_hasta": 1363 },
+            { "nombre": "ESC. SEC. N°. 14", "mesa_desde": 1364, "mesa_hasta": 1369 },
+            { "nombre": "ESC. SEC. N°. 183", "mesa_desde": 1370, "mesa_hasta": 1377 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "FIAMBALA",
+      "localidades": [
+        {
+          "nombre": "FIAMBALA",
+          "escuelas": [
+            { "nombre": "ESC. N° 314", "mesa_desde": 1296, "mesa_hasta": 1299 },
+            { "nombre": "ESC. N° 17", "mesa_desde": 1300, "mesa_hasta": 1308 },
+            { "nombre": "ESC. N° 104", "mesa_desde": 1309, "mesa_hasta": 1314 }
+          ]
+        },
+        {
+          "nombre": "LA MESADA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 306", "mesa_desde": 1315, "mesa_hasta": 1315 }
+          ]
+        },
+        {
+          "nombre": "LA RAMADITA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 128", "mesa_desde": 1317, "mesa_hasta": 1317 }
+          ]
+        },
+        {
+          "nombre": "MEDANITOS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 255", "mesa_desde": 1318, "mesa_hasta": 1321 }
+          ]
+        },
+        {
+          "nombre": "PALO BLANCO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 406", "mesa_desde": 1322, "mesa_hasta": 1325 }
+          ]
+        },
+        {
+          "nombre": "SAUJIL",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 308", "mesa_desde": 1333, "mesa_hasta": 1334 }
+          ]
+        },
+        {
+          "nombre": "TATON",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 299", "mesa_desde": 1335, "mesa_hasta": 1336 }
+          ]
+        }
+      ]
+    }
+  ]
+}

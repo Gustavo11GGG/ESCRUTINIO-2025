@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Certificado - Escrutinio Catamarca</title>
+  <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+  <main class="contenedor-buscar">
+    <h2>🗳️ Buscar Certificado</h2>
+    <p><strong>Ingrese el número de mesa para consultar:</strong></p>
+
+    <div class="busqueda">
+      <input 
+        type="number" 
+        id="numeroMesa" 
+        placeholder="Ej: 245" 
+        class="input-mesa"
+      >
+      <button id="btnBuscar" class="btn-buscar">🔍 Buscar</button>
+    </div>
+
+    <div id="opcionesCertificados" class="opciones" style="display:none;">
+      <p><strong>Seleccione tipo de certificado:</strong></p>
+      <button id="btnProvincial" class="btn-certificado">🟣 Certificado Provincial</button>
+      <button id="btnNacional" class="btn-certificado">🔵 Certificado Nacional</button>
+    </div>
+
+    <div id="mensaje" class="mensaje"></div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="assets/js/buscadorCertificado.js" defer></script>
+  <script src="assets/js/navbar.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+{
+  "departamento": "CAPITAL",
+  "municipios": [
+    {
+      "nombre": "CAPITAL",
+      "localidades": [
+        {
+          "nombre": "SFDV",
+          "escuelas": [
+            { "nombre": "COLEGIO PRIVADO PIA DI DOMENICO", "mesa_desde": 1, "mesa_hasta": 9 },
+            { "nombre": "E.N.E.T N° 1", "mesa_desde": 10, "mesa_hasta": 20 },
+            { "nombre": "ESC. PROV. N° 491", "mesa_desde": 21, "mesa_hasta": 30 },
+            { "nombre": "ESC. Nº 271 PROV. S. DEL ESTERO", "mesa_desde": 31, "mesa_hasta": 40 },
+            { "nombre": "ESCUELA PROV. N° 324", "mesa_desde": 41, "mesa_hasta": 45 },
+            { "nombre": "ESC. N° 126 B. APOLO", "mesa_desde": 46, "mesa_hasta": 63 },
+            { "nombre": "ESC. PROV. N° 50 (POLIMODAL)", "mesa_desde": 64, "mesa_hasta": 69 },
+            { "nombre": "ESC. JAVIER CASTRO N°243", "mesa_desde": 70, "mesa_hasta": 88 },
+            { "nombre": "ESC. PROV. Nº 161", "mesa_desde": 89, "mesa_hasta": 105 },
+            { "nombre": "ESC. PROV. N° 199", "mesa_desde": 106, "mesa_hasta": 122 },
+            { "nombre": "ESC. Nº 195 REVOLUCION DE MAYO", "mesa_desde": 123, "mesa_hasta": 133 },
+            { "nombre": "ESC. Nº 49", "mesa_desde": 134, "mesa_hasta": 141 },
+            { "nombre": "COLEGIO DEL CARMEN Y SAN JOSE", "mesa_desde": 142, "mesa_hasta": 149 },
+            { "nombre": "PROV. ARTE N° 3", "mesa_desde": 150, "mesa_hasta": 155 },
+            { "nombre": "PRIM. NUM. 994", "mesa_desde": 156, "mesa_hasta": 179 },
+            { "nombre": "ESCUELA PROV. N° 3 JORGE NEWBERY", "mesa_desde": 180, "mesa_hasta": 192 },
+            { "nombre": "ESC. SECUND. N°1 DR FIDEL M CASTRO", "mesa_desde": 193, "mesa_hasta": 206 },
+            { "nombre": "C.E.M N°2", "mesa_desde": 207, "mesa_hasta": 212 },
+            { "nombre": "C.E.M N°2 ANEXO", "mesa_desde": 213, "mesa_hasta": 216 },
+            { "nombre": "SEC. N°77", "mesa_desde": 217, "mesa_hasta": 227 },
+            { "nombre": "ESC. NAC. C. J. A.", "mesa_desde": 228, "mesa_hasta": 239 },
+            { "nombre": "ESC. PROV. N° 991", "mesa_desde": 240, "mesa_hasta": 246 },
+            { "nombre": "ESC. PROV. N° 323", "mesa_desde": 247, "mesa_hasta": 260 },
+            { "nombre": "ESC. PROV. N° 353", "mesa_desde": 261, "mesa_hasta": 273 },
+            { "nombre": "ESC. PROV. N° 46", "mesa_desde": 274, "mesa_hasta": 280 },
+            { "nombre": "NVA. ESCUELA 257 CAPITAL FEDERAL", "mesa_desde": 281, "mesa_hasta": 292 },
+            { "nombre": "C. P. R. DE LA QUINTANA", "mesa_desde": 293, "mesa_hasta": 301 },
+            { "nombre": "ESC. PROV. N° 992", "mesa_desde": 302, "mesa_hasta": 310 },
+            { "nombre": "ESC. FRAY M. ESQUIU", "mesa_desde": 311, "mesa_hasta": 360 },
+            { "nombre": "COLEGIO F.A.S.T.A.", "mesa_desde": 361, "mesa_hasta": 384 },
+            { "nombre": "COLEGIO FASTA (NUEVO)", "mesa_desde": 385, "mesa_hasta": 394 },
+            { "nombre": "ESC. PROV. N° 993-MORENO", "mesa_desde": 395, "mesa_hasta": 404 },
+            { "nombre": "ESC. N° 47 RAMON S CASTILLO", "mesa_desde": 405, "mesa_hasta": 414 },
+            { "nombre": "ESC. N° 198 HUAYRA PUNCO", "mesa_desde": 415, "mesa_hasta": 429 },
+            { "nombre": "ESC. PROV. N° 182", "mesa_desde": 430, "mesa_hasta": 445 },
+            { "nombre": "ESC. SEC. N° 76", "mesa_desde": 446, "mesa_hasta": 457 },
+            { "nombre": "ESC. PRIM. N° 196", "mesa_desde": 458, "mesa_hasta": 469 },
+            { "nombre": "ESC. PRIM. N° 428", "mesa_desde": 470, "mesa_hasta": 483 },
+            { "nombre": "ESC. SEC. N° 7", "mesa_desde": 484, "mesa_hasta": 488 },
+            { "nombre": "COL. SEC. CRISTO REY", "mesa_desde": 489, "mesa_hasta": 493 },
+            { "nombre": "INST. PRIVADO E. G. HOOD", "mesa_desde": 494, "mesa_hasta": 503 },
+            { "nombre": "ESC. PROV. N° 296", "mesa_desde": 504, "mesa_hasta": 511 },
+            { "nombre": "ESC. PROV. N° 180", "mesa_desde": 512, "mesa_hasta": 521 },
+            { "nombre": "ESC. PROV. N° 162", "mesa_desde": 522, "mesa_hasta": 531 },
+            { "nombre": "COLEG. POL. N° 29 B-HOUSEY", "mesa_desde": 532, "mesa_hasta": 535 },
+            { "nombre": "ESC. PROV. T. ING. ALSINA ALCOBERT", "mesa_desde": 536, "mesa_hasta": 547 },
+            { "nombre": "ESC. MUNICIPAL N° 1 EL PRINCIPITO", "mesa_desde": 548, "mesa_hasta": 553 },
+            { "nombre": "ESC. SEC. N° 5", "mesa_desde": 554, "mesa_hasta": 558 },
+            { "nombre": "MUNICIPAL N° 3", "mesa_desde": 559, "mesa_hasta": 564 },
+            { "nombre": "MUNICIPAL N° 2", "mesa_desde": 565, "mesa_hasta": 568 },
+            { "nombre": "ESC. PROV. N° 493", "mesa_desde": 569, "mesa_hasta": 575 },
+            { "nombre": "ESC. PROV. N° 230", "mesa_desde": 576, "mesa_hasta": 588 }
+          ]
+        }
+      ]
+    }
+  ]
+}

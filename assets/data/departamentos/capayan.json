@@ -1,0 +1,95 @@
+{
+  "departamento": "CAPAYAN",
+  "municipios": [
+    {
+      "nombre": "CAPAYAN",
+      "localidades": [
+        {
+          "nombre": "CARRANZA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 24", "mesa_desde": 589, "mesa_hasta": 589 }
+          ]
+        },
+        {
+          "nombre": "CHUMBICHA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 72", "mesa_desde": 609, "mesa_hasta": 613 },
+            { "nombre": "ESC. PRIM. N° 179", "mesa_desde": 614, "mesa_hasta": 618 }
+          ]
+        },
+        {
+          "nombre": "SAN MARTIN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 47", "mesa_desde": 649, "mesa_hasta": 650 }
+          ]
+        },
+        {
+          "nombre": "SAN PEDRO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 283", "mesa_desde": 651, "mesa_hasta": 652 }
+          ]
+        },
+        {
+          "nombre": "TELARITOS",
+          "escuelas": [
+            { "nombre": "ESC. N° 326", "mesa_desde": 653, "mesa_hasta": 654 }
+          ]
+        },
+        {
+          "nombre": "VILLA CAPAYAN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 226", "mesa_desde": 655, "mesa_hasta": 657 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "HUILLAPIMA",
+      "localidades": [
+        {
+          "nombre": "CONCEPCION",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 260", "mesa_desde": 590, "mesa_hasta": 592 }
+          ]
+        },
+        {
+          "nombre": "CONETA",
+          "escuelas": [
+            { "nombre": "ESC. AGR.N.CONETA", "mesa_desde": 593, "mesa_hasta": 601 },
+            { "nombre": "ESC. PRIM. N° 225", "mesa_desde": 602, "mesa_hasta": 608 }
+          ]
+        },
+        {
+          "nombre": "CHUMBICHA",
+          "escuelas": [
+            { "nombre": "COLEGIO PRIVADO", "mesa_desde": 619, "mesa_hasta": 626 }
+          ]
+        },
+        {
+          "nombre": "HUILLAPIMA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 285", "mesa_desde": 627, "mesa_hasta": 637 }
+          ]
+        },
+        {
+          "nombre": "LOS ANGELES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 374", "mesa_desde": 638, "mesa_hasta": 639 }
+          ]
+        },
+        {
+          "nombre": "MIRAFLORES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 284", "mesa_desde": 640, "mesa_hasta": 647 }
+          ]
+        },
+        {
+          "nombre": "PUNTA DEL RIO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 14", "mesa_desde": 648, "mesa_hasta": 648 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "departamento": "ANDALGALA",
+  "municipios": [
+    {
+      "nombre": "ACONQUIJA",
+      "localidades": [
+        {
+          "nombre": "ACONQUIJA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 287", "mesa_desde": 1099, "mesa_hasta": 1107 },
+            { "nombre": "ESC. N° 86", "mesa_desde": 1108, "mesa_hasta": 1109 }
+          ]
+        },
+        {
+          "nombre": "AGUAS DE LAS PALOMAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 50", "mesa_desde": 1110, "mesa_hasta": 1110 }
+          ]
+        },
+        {
+          "nombre": "LA ALUMBRERA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 342", "mesa_desde": 1160, "mesa_hasta": 1160 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "ANDALGALA",
+      "localidades": [
+        {
+          "nombre": "AMANAO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 410", "mesa_desde": 1111, "mesa_hasta": 1111 }
+          ]
+        },
+        {
+          "nombre": "ANDALGALA CIUDAD",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 995", "mesa_desde": 1112, "mesa_hasta": 1133 },
+            { "nombre": "ESC. PROV. N° 703", "mesa_desde": 1134, "mesa_hasta": 1149 }
+          ]
+        },
+        {
+          "nombre": "CHAQUIAGO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 235", "mesa_desde": 1150, "mesa_hasta": 1156 }
+          ]
+        },
+        {
+          "nombre": "CHOYA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 217", "mesa_desde": 1157, "mesa_hasta": 1158 }
+          ]
+        },
+        {
+          "nombre": "EL POTRERO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 286", "mesa_desde": 1159, "mesa_hasta": 1159 }
+          ]
+        },
+        {
+          "nombre": "MALLI",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 218", "mesa_desde": 1161, "mesa_hasta": 1168 }
+          ]
+        },
+        {
+          "nombre": "MINAS CAPILLITAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 217", "mesa_desde": 1169, "mesa_hasta": 1169 }
+          ]
+        },
+        {
+          "nombre": "VILLA VIL",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 395", "mesa_desde": 1170, "mesa_hasta": 1170 }
+          ]
+        }
+      ]
+    }
+  ]
+}

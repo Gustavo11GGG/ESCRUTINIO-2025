@@ -1,0 +1,110 @@
+{
+  "departamento": "EL ALTO",
+  "municipio": "TAPSO",
+  "fuerzas": [
+    {
+      "nro_lista": 1,
+      "fuerza_politica": "MOVIMIENTO DE INTEGRACIÓN Y DESARROLLO - MID",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 501,
+      "fuerza_politica": "FUERZA PATRIA",
+      "diputado_provincial": true,
+      "senador_provincial": true,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 505,
+      "fuerza_politica": "PRIMERO CATAMARCA",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 506,
+      "fuerza_politica": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 504,
+      "fuerza_politica": "ALIANZA LA LIBERTAD AVANZA",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 503,
+      "fuerza_politica": "HACEMOS RENACER CATAMARCA",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 502,
+      "fuerza_politica": "ALIANZA SOMOS PROVINCIAS UNIDAS CATAMARCA",
+      "diputado_provincial": true,
+      "senador_provincial": true,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 92,
+      "fuerza_politica": "POLÍTICA OBRERA",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 514,
+      "fuerza_politica": "ALIANZA CON VOS PODEMOS",
+      "diputado_provincial": true,
+      "senador_provincial": true,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 513,
+      "fuerza_politica": "ALIANZA ANDALGALÁ UNIDOS POR UNA CATAMARCA MEJOR",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 311,
+      "fuerza_politica": "PARTIDO DEMÓCRATA",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 289,
+      "fuerza_politica": "PARTIDO UNIÓN PATRIÓTICA CATAMARQUEÑA",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    },
+    {
+      "nro_lista": 73,
+      "fuerza_politica": "NUEVO ENCUENTRO POR LA DEMOCRACIA Y LA EQUIDAD",
+      "diputado_provincial": true,
+      "senador_provincial": false,
+      "intendente_municipal": null,
+      "concejales_municipales": null
+    }
+  ]
+}

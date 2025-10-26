@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certificado Nacional - Escrutinio Electoral</title>
+  <link rel="stylesheet" href="assets/css/estilos.css" />
+</head>
+<body>
+  <div class="contenedor">
+    <h2>🇦🇷 CERTIFICADO DE ESCRUTINIO NACIONAL</h2>
+    <div id="infoMesa"></div>
+    <div id="formularioContainer"></div>
+
+    <!-- 🔙 Botón Volver a Mesas -->
+    <div style="text-align:center; margin-top:20px;">
+      <button onclick="window.location.href='index.html'" class="btn-volver">
+        ⬅️ Volver a Mesas
+      </button>
+    </div>
+
+    <!-- 🧹 Botón Limpiar Datos -->
+    <div class="text-center mt-4">
+      <button id="btnLimpiarDatos" class="btn btn-danger fw-bold px-4 py-2">
+        🧹 Limpiar Datos
+      </button>
+    </div>
+  </div>
+
+  <!-- 📦 Scripts -->
+  <script src="assets/js/almacenamiento.js"></script>
+  <script src="assets/js/certificado_nacional.js"></script>
+  <script src="assets/js/navbar.js" defer></script>
+</body>
+</html>

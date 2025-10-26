@@ -1,0 +1,22 @@
+{
+  "departamento": "ANTOFAGASTA DE LA SIERRA",
+  "municipios": [
+    {
+      "nombre": "ANTOFAGASTA DE LA SIERRA",
+      "localidades": [
+        {
+          "nombre": "ANTOF. DE LA SIERRA",
+          "escuelas": [
+            { "nombre": "ESC. PRIMARIA N°494", "mesa_desde": 1281, "mesa_hasta": 1286 }
+          ]
+        },
+        {
+          "nombre": "EL PEÑÓN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 142", "mesa_desde": 1287, "mesa_hasta": 1288 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "departamento": "LA PAZ",
+  "municipios": [
+    {
+      "nombre": "RECREO",
+      "localidades": [
+        {
+          "nombre": "RECREO",
+          "escuelas": [
+            { "nombre": "ESCUELA PROV. N° 324", "mesa_desde": 41, "mesa_hasta": 45 },
+            { "nombre": "ESCUELA PROV. N° 250", "mesa_desde": 46, "mesa_hasta": 48 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "ICAÑO",
+      "localidades": [
+        {
+          "nombre": "ICAÑO",
+          "escuelas": [
+            { "nombre": "ESCUELA PROV. N° 303", "mesa_desde": 49, "mesa_hasta": 53 }
+          ]
+        }
+      ]
+    }
+  ]
+}

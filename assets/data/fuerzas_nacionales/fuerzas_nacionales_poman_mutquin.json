@@ -1,0 +1,51 @@
+{
+  "departamento": "POMÁN",
+  "municipio": "MUTQUÍN",
+  "fuerzas": [
+    {
+      "nro_lista": 1,
+      "fuerza_politica": "MOVIMIENTO DE INTEGRACION Y DESARROLLO - MID",
+      "diputado_nacional": true
+    },
+    {
+      "nro_lista": 501,
+      "fuerza_politica": "FUERZA PATRIA",
+      "diputado_nacional": true
+    },
+    {
+      "nro_lista": 505,
+      "fuerza_politica": "PRIMERO CATAMARCA",
+      "diputado_nacional": true
+    },
+    {
+      "nro_lista": 506,
+      "fuerza_politica": "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD",
+      "diputado_nacional": true
+    },
+    {
+      "nro_lista": 504,
+      "fuerza_politica": "ALIANZA LA LIBERTAD AVANZA",
+      "diputado_nacional": true
+    },
+    {
+      "nro_lista": 503,
+      "fuerza_politica": "HACEMOS RENACER CATAMARCA",
+      "diputado_nacional": true
+    },
+    {
+      "nro_lista": 502,
+      "fuerza_politica": "SOMOS PROVINCIAS UNIDAS - CATAMARCA",
+      "diputado_nacional": true
+    },
+    {
+      "nro_lista": 92,
+      "fuerza_politica": "POLITICA OBRERA",
+      "diputado_nacional": true
+    },
+    {
+      "nro_lista": 95,
+      "fuerza_politica": "FRENTE PATRIOTA FEDERAL",
+      "diputado_nacional": true
+    }
+  ]
+}

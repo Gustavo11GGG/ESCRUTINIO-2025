@@ -1,0 +1,170 @@
+{
+  "departamento": "BELEN",
+  "municipios": [
+    {
+      "nombre": "BELEN",
+      "localidades": [
+        {
+          "nombre": "AMPUJACO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 468", "mesa_desde": 1171, "mesa_hasta": 1171 }
+          ]
+        },
+        {
+          "nombre": "BELEN CIUDAD",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 6", "mesa_desde": 1225, "mesa_hasta": 1236 },
+            { "nombre": "ESC. DE COMERCIO", "mesa_desde": 1237, "mesa_hasta": 1247 },
+            { "nombre": "E.P.E.T. N° 2", "mesa_desde": 1248, "mesa_hasta": 1256 },
+            { "nombre": "ESC. PROV. N° 337", "mesa_desde": 1257, "mesa_hasta": 1266 },
+            { "nombre": "ESC. PROV. N° 221", "mesa_desde": 1267, "mesa_hasta": 1276 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "CORRAL QUEMADO",
+      "localidades": [
+        {
+          "nombre": "CORRAL QUEMADO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 347", "mesa_desde": 1172, "mesa_hasta": 1177 }
+          ]
+        },
+        {
+          "nombre": "CULAMPAJA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 477", "mesa_desde": 1178, "mesa_hasta": 1178 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "PUERTA DE CORRAL QUEMADO",
+      "localidades": [
+        {
+          "nombre": "EL DURAZNO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 68", "mesa_desde": 1179, "mesa_hasta": 1182 }
+          ]
+        },
+        {
+          "nombre": "EL TOLAR",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 474", "mesa_desde": 1183, "mesa_hasta": 1183 }
+          ]
+        },
+        {
+          "nombre": "PUERTA DE C. QUEMADO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 350", "mesa_desde": 1218, "mesa_hasta": 1220 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "HUALFIN",
+      "localidades": [
+        {
+          "nombre": "HUALFIN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 288", "mesa_desde": 1184, "mesa_hasta": 1188 }
+          ]
+        },
+        {
+          "nombre": "LOS NACIMIENTOS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 412", "mesa_desde": 1217, "mesa_hasta": 1217 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "PUERTA DE SAN JOSE",
+      "localidades": [
+        {
+          "nombre": "LA CIENAGA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 253", "mesa_desde": 1189, "mesa_hasta": 1191 }
+          ]
+        },
+        {
+          "nombre": "LA PUERTA DE SAN JOSE",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 254", "mesa_desde": 1195, "mesa_hasta": 1196 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "VILLA VIL",
+      "localidades": [
+        {
+          "nombre": "LAGUNA BLANCA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 450", "mesa_desde": 1192, "mesa_hasta": 1192 }
+          ]
+        },
+        {
+          "nombre": "CARACHI",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 192", "mesa_desde": 1193, "mesa_hasta": 1193 }
+          ]
+        },
+        {
+          "nombre": "AGUAS CALIENTES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 163", "mesa_desde": 1194, "mesa_hasta": 1194 }
+          ]
+        },
+        {
+          "nombre": "LAS CUEVAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 454", "mesa_desde": 1197, "mesa_hasta": 1197 }
+          ]
+        },
+        {
+          "nombre": "VILLA VIL",
+          "escuelas": [
+            { "nombre": "ESC.PROV. N° 423", "mesa_desde": 1277, "mesa_hasta": 1280 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "POZO DE PIEDRA",
+      "localidades": [
+        {
+          "nombre": "LAS JUNTAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 95", "mesa_desde": 1198, "mesa_hasta": 1204 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "LONDRES",
+      "localidades": [
+        {
+          "nombre": "LONDRES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 289", "mesa_desde": 1205, "mesa_hasta": 1212 },
+            { "nombre": "ESC. PROV. N° 40", "mesa_desde": 1213, "mesa_hasta": 1216 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "SAN FERNANDO",
+      "localidades": [
+        {
+          "nombre": "SAN FERNANDO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 348", "mesa_desde": 1221, "mesa_hasta": 1222 },
+            { "nombre": "ESC. PROV. N° 475", "mesa_desde": 1223, "mesa_hasta": 1224 }
+          ]
+        }
+      ]
+    }
+  ]
+}

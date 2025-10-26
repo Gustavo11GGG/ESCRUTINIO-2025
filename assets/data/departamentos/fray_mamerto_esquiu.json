@@ -1,0 +1,53 @@
+{
+  "departamento": "FRAY MAMERTO ESQUIU",
+  "municipios": [
+    {
+      "nombre": "FRAY MAMERTO ESQUIU NORTE",
+      "localidades": [
+        {
+          "nombre": "LA CARRERA",
+          "escuelas": [
+            { "nombre": "ESC. N° 238", "mesa_desde": 978, "mesa_hasta": 985 }
+          ]
+        },
+        {
+          "nombre": "LAS PIRQUITAS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 484", "mesa_desde": 986, "mesa_hasta": 988 }
+          ]
+        },
+        {
+          "nombre": "POMANCILLO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 204", "mesa_desde": 989, "mesa_hasta": 990 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "FRAY MAMERTO ESQUIU SUR",
+      "localidades": [
+        {
+          "nombre": "SAN ANTONIO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 264", "mesa_desde": 991, "mesa_hasta": 1002 },
+            { "nombre": "ESC. PROV. N° 55", "mesa_desde": 1003, "mesa_hasta": 1009 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "FRAY MAMERTO ESQUIU CENTRO",
+      "localidades": [
+        {
+          "nombre": "SAN JOSE",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 265", "mesa_desde": 1010, "mesa_hasta": 1014 },
+            { "nombre": "ESC. MUNICIPAL N° 1", "mesa_desde": 1015, "mesa_hasta": 1023 },
+            { "nombre": "ESC. ESTANISLAO MALDONES", "mesa_desde": 1024, "mesa_hasta": 1028 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "departamento": "EL ALTO",
+  "municipios": [
+    {
+      "nombre": "TAPSO",
+      "localidades": [
+        {
+          "nombre": "ACHALCO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 380", "mesa_desde": 767, "mesa_hasta": 768 }
+          ]
+        },
+        {
+          "nombre": "TAPSO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 277", "mesa_desde": 769, "mesa_hasta": 773 }
+          ]
+        },
+        {
+          "nombre": "LOS MORTEROS",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 332", "mesa_desde": 779, "mesa_hasta": 780 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "EL ALTO",
+      "localidades": [
+        {
+          "nombre": "CHAÑAR LAGUNA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 276", "mesa_desde": 774, "mesa_hasta": 774 }
+          ]
+        },
+        {
+          "nombre": "GUAYAMBA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 206", "mesa_desde": 775, "mesa_hasta": 777 }
+          ]
+        },
+        {
+          "nombre": "INFANZON",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 397", "mesa_desde": 778, "mesa_hasta": 778 }
+          ]
+        },
+        {
+          "nombre": "VILISMAN",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 205", "mesa_desde": 781, "mesa_hasta": 782 }
+          ]
+        },
+        {
+          "nombre": "VILLA (EL ALTO)",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 270", "mesa_desde": 783, "mesa_hasta": 787 }
+          ]
+        }
+      ]
+    }
+  ]
+}

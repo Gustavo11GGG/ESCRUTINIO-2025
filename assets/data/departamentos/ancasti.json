@@ -1,0 +1,76 @@
+{
+  "departamento": "ANCASTI",
+  "municipios": [
+    {
+      "nombre": "ANCASTI",
+      "localidades": [
+        {
+          "nombre": "ANQUINCILA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 214", "mesa_desde": 749, "mesa_hasta": 750 }
+          ]
+        },
+        {
+          "nombre": "LA CANDELARIA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 424", "mesa_desde": 751, "mesa_hasta": 752 }
+          ]
+        },
+        {
+          "nombre": "EL CHORRO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 402", "mesa_desde": 753, "mesa_hasta": 753 }
+          ]
+        },
+        {
+          "nombre": "EL TACO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 298", "mesa_desde": 754, "mesa_hasta": 754 }
+          ]
+        },
+        {
+          "nombre": "IPIZCA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 232", "mesa_desde": 755, "mesa_hasta": 756 }
+          ]
+        },
+        {
+          "nombre": "LA MAJADA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 359", "mesa_desde": 757, "mesa_hasta": 758 }
+          ]
+        },
+        {
+          "nombre": "LOS MOGOTES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 389", "mesa_desde": 759, "mesa_hasta": 759 }
+          ]
+        },
+        {
+          "nombre": "QUEBRACHAL",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 472", "mesa_desde": 760, "mesa_hasta": 760 }
+          ]
+        },
+        {
+          "nombre": "TACANA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 278", "mesa_desde": 761, "mesa_hasta": 761 }
+          ]
+        },
+        {
+          "nombre": "VILLA (ANCASTI)",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 249", "mesa_desde": 762, "mesa_hasta": 765 }
+          ]
+        },
+        {
+          "nombre": "YERBA BUENA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 399", "mesa_desde": 766, "mesa_hasta": 766 }
+          ]
+        }
+      ]
+    }
+  ]
+}

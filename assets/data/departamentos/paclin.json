@@ -1,0 +1,52 @@
+{
+  "departamento": "PACLIN",
+  "municipios": [
+    {
+      "nombre": "PACLIN",
+      "localidades": [
+        {
+          "nombre": "AMADORES",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 212", "mesa_desde": 839, "mesa_hasta": 839 }
+          ]
+        },
+        {
+          "nombre": "BALCOZNA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 211", "mesa_desde": 840, "mesa_hasta": 843 }
+          ]
+        },
+        {
+          "nombre": "LA HIGUERA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 330", "mesa_desde": 844, "mesa_hasta": 845 }
+          ]
+        },
+        {
+          "nombre": "LA MERCED",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 292", "mesa_desde": 846, "mesa_hasta": 854 }
+          ]
+        },
+        {
+          "nombre": "LA VIÑA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 301", "mesa_desde": 855, "mesa_hasta": 855 }
+          ]
+        },
+        {
+          "nombre": "PALO LABRADO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 401", "mesa_desde": 856, "mesa_hasta": 857 }
+          ]
+        },
+        {
+          "nombre": "SAN ANTONIO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 375", "mesa_desde": 858, "mesa_hasta": 859 }
+          ]
+        }
+      ]
+    }
+  ]
+}

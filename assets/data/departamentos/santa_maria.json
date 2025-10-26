@@ -1,0 +1,85 @@
+{
+  "departamento": "SANTA MARIA",
+  "municipios": [
+    {
+      "nombre": "SAN JOSE",
+      "localidades": [
+        {
+          "nombre": "AGUA AMARILLA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 442", "mesa_desde": 1378, "mesa_hasta": 1378 }
+          ]
+        },
+        {
+          "nombre": "ANDALHUALA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 291", "mesa_desde": 1379, "mesa_hasta": 1379 }
+          ]
+        },
+        {
+          "nombre": "CASA DE PIEDRA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 317", "mesa_desde": 1380, "mesa_hasta": 1382 }
+          ]
+        },
+        {
+          "nombre": "LA HOYADA",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 345", "mesa_desde": 1393, "mesa_hasta": 1393 }
+          ]
+        },
+        {
+          "nombre": "PUNTA DE BALASTO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 357", "mesa_desde": 1401, "mesa_hasta": 1401 }
+          ]
+        },
+        {
+          "nombre": "SAN JOSE",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 290", "mesa_desde": 1402, "mesa_hasta": 1410 },
+            { "nombre": "EPET N° 13", "mesa_desde": 1411, "mesa_hasta": 1416 }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "SANTA MARIA",
+      "localidades": [
+        {
+          "nombre": "CHAÑAR PUNCO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 220", "mesa_desde": 1383, "mesa_hasta": 1388 }
+          ]
+        },
+        {
+          "nombre": "EL CAJON",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 219", "mesa_desde": 1389, "mesa_hasta": 1389 }
+          ]
+        },
+        {
+          "nombre": "FUERTE QUEMADO",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 241", "mesa_desde": 1390, "mesa_hasta": 1392 }
+          ]
+        },
+        {
+          "nombre": "LORO HUASI",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 240", "mesa_desde": 1394, "mesa_hasta": 1400 }
+          ]
+        },
+        {
+          "nombre": "SANTA MARIA CIUDAD",
+          "escuelas": [
+            { "nombre": "ESC. PROV. N° 705", "mesa_desde": 1417, "mesa_hasta": 1433 },
+            { "nombre": "ESC. NORMAL REG. N° 448", "mesa_desde": 1434, "mesa_hasta": 1446 },
+            { "nombre": "ESC. PRIM. NUM. 114", "mesa_desde": 1447, "mesa_hasta": 1458 },
+            { "nombre": "EPET N° 5", "mesa_desde": 1459, "mesa_hasta": 1468 }
+          ]
+        }
+      ]
+    }
+  ]
+}
