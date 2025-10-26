@@ -1,8 +1,5 @@
 // 📊 Consulta de resultados de Diputados Nacionales desde JSONBin.io
 
-const API_KEY = "$2a$10$wTPVX8Drzqq6./FQLpRXrennzxxdycT./vqdfiXwGdVILuRAV6cju"; 
-const BIN_NACIONALES = "https://api.jsonbin.io/v3/b/68fea1afd0ea881f40be116d";
-
 document.addEventListener("DOMContentLoaded", () => {
   const btnConsultar = document.querySelector("button");
   const selectDepto = document.querySelector("select");
