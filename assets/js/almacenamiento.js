@@ -1,7 +1,7 @@
 // 🗂 Manejo global de resultados (provinciales y nacionales) con JSONBin.io
 
-// 🔑 API Key y URLs de los bins
-const API_KEY = "$2a$10$Lwzz7WhRvlY0eZJf1d86y.xQWxafQlPBjwksFa2iaRXJDwD4nmYZy";
+// 🔑 API Key (X-MASTER-KEY) y URLs de los bins
+const API_KEY = "$2a$10$wTPVX8Drzqq6.FQLpRXrennzxxdycT./vqdfiXwGdVILuRAV6cju"; // Master Key
 const BIN_PROVINCIALES = "https://api.jsonbin.io/v3/b/68fe89a0ae596e708f2eac38";
 const BIN_NACIONALES = "https://api.jsonbin.io/v3/b/68fe8a7c43b1c97be982f11f";
 
